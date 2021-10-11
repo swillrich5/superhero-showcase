@@ -1,0 +1,37 @@
+body {
+    background-image: url('../images/background.jpg');
+    min-width: 100%;
+    min-height: 100%;
+    color:darkgray;
+}
+
+.container {
+    min-width: 70%;
+}
+
+.jumbotron {
+    padding-top: 20px;
+    color: rgb(116, 109, 109);
+    background-color: rgb(241, 237, 237);
+    margin-top: 50px;
+    min-height: 100%;
+}
+
+p {
+    text-align:left;
+    margin-top: 20px;
+}
+
+img {
+    max-height: 100px;
+    max-width: 100px;
+    transition: transform .5s; /* Animation */
+}
+
+.character-img:hover {
+    transform: scale(1.1);
+}
+
+.card {
+    transition: transform .5s; /* Animation */
+}

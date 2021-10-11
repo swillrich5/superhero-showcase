@@ -38,7 +38,7 @@ const Navbar = ({ icon, title }) => {
 }
 
 Navbar.defaultProps = {
-    title: 'Marvel API Browser',
+    title: 'Superhero API Browser',
     icon: 'far fa-hand-spock'
   }
   
