@@ -34,4 +34,5 @@ img {
 
 .card {
     transition: transform .5s; /* Animation */
+    /* width: 10rem; */
 }
